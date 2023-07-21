@@ -1,0 +1,43 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+h1{
+    background-color: rgb(201, 152, 152);
+    text-align: center;
+    height: 12vh;
+    line-height: 12vh;
+    font-style: italic;
+}
+.navi{
+    background-color: aqua;
+    height: 6.5vh;
+    line-height: 6.5vh;
+
+}
+.navi a{
+    text-decoration: none;
+    display: inline;
+    padding: 10px;
+}
+.navi li{
+    display: inline;
+}
+.navi a:hover{
+    background-color: black;
+    color: white;
+}
+.contents{
+    display: flex;
+}
+.column1{
+    float: left;
+    width: 70%;
+
+}
+.side{
+    border: 3px solid;
+    float: right;
+    width: 30%;
+}
